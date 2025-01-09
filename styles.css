@@ -24,7 +24,13 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
   }
+
+body{
+    background-color: white;
+    padding: 20;
+}  
 
 .post{
     width: 450px;
@@ -39,11 +45,14 @@ html {
 .post-icons{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom : 10px;
 }
 
 .post-icons-left{
     gap: 5px;
     display: flex;
+    margin-left: 10px;
 }
 
 .fa-solid{
@@ -56,4 +65,10 @@ html {
 
 p{
     text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+strong{
+    font-weight: bold;
 }
